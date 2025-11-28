@@ -1,0 +1,4044 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pp {
+    color: aliceblue;
+    text-align: center;
+
+}
+
+
+body {
+    background-image: url(1.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+
+}
+
+
+header {
+    padding: 1px;
+    color: rgb(255, 255, 255);
+    background: rgb(17, 0, 255);
+    margin-top: 10px;
+
+
+
+}
+
+.header-header {
+    text-align: center;
+    font-size: 200%;
+    height: 95px;
+    margin-top: 50px;
+}
+
+header img {
+    width: 150px;
+    height: 145px;
+    float: left;
+
+
+}
+
+footer {
+    border: 100%;
+    padding: 100px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(18, 6, 88);
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    width: 150px;
+    box-shadow: 0 -2px 5px rgb(0, 0, 0, 0.2);
+
+}
+
+
+footer a {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+#adBox {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+#adBox .content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.game-box {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+
+}
+
+.game-box:hover {
+    transform: scale(1.05);
+}
+
+.game-box-1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-1 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-1:hover {
+    transform: scale(1.05);
+}
+
+.game-box-2 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-2 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-2:hover {
+    transform: scale(1.05);
+}
+
+.game-box-3 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-3 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+
+.game-box-3:hover {
+    transform: scale(1.05);
+}
+
+.game-box-3 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-4 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-4:hover {
+    transform: scale(1.05);
+}
+
+.game-box-4 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-5 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-5:hover {
+    transform: scale(1.05);
+}
+
+.game-box-5 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-6 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-6:hover {
+    transform: scale(1.05);
+}
+
+.game-box-6 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-6 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-6:hover {
+    transform: scale(1.05);
+}
+
+.game-box-7 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-7 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-7:hover {
+    transform: scale(1.05);
+}
+
+.game-box-8 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-8 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-8:hover {
+    transform: scale(1.05);
+}
+
+.game-box-9 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-9 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-9:hover {
+    transform: scale(1.05);
+}
+
+.game-box-10 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-10 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-10:hover {
+    transform: scale(1.05);
+}
+
+.game-box-0 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-0 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-0:hover {
+    transform: scale(1.05);
+}
+
+.game-box-11 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-11 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-11:hover {
+    transform: scale(1.05);
+}
+
+.game-box-12 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-12 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-12:hover {
+    transform: scale(1.05);
+}
+
+.game-box-13 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-13 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-13:hover {
+    transform: scale(1.05);
+}
+
+.game-box-14 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-14 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-14:hover {
+    transform: scale(1.05);
+}
+
+.game-box-15 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-15 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-15:hover {
+    transform: scale(1.05);
+}
+
+.game-box-16 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-16 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-16:hover {
+    transform: scale(1.05);
+}
+
+.game-box-17 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-17 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-17:hover {
+    transform: scale(1.05);
+}
+
+.game-box-18 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-18 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-18:hover {
+    transform: scale(1.05);
+}
+
+.game-box-19 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-19 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-19:hover {
+    transform: scale(1.05);
+}
+
+.game-box-20 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-20 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-20:hover {
+    transform: scale(1.05);
+}
+
+.game-box-21 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-21 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-21:hover {
+    transform: scale(1.05);
+}
+
+.game-box-22 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-22 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-22:hover {
+    transform: scale(1.05);
+}
+
+.game-box-23 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-23 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-23:hover {
+    transform: scale(1.05);
+}
+
+.game-box-24 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-24 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-24:hover {
+    transform: scale(1.05);
+}
+
+.game-box-25 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-25 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-25:hover {
+    transform: scale(1.05);
+}
+
+.game-box-26 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-26 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-26:hover {
+    transform: scale(1.05);
+}
+
+.game-box-27 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-27 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-27:hover {
+    transform: scale(1.05);
+}
+
+.game-box-28 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-28 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-28:hover {
+    transform: scale(1.05);
+}
+
+.game-box-29 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-29 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-29:hover {
+    transform: scale(1.05);
+}
+
+.game-box-30 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-30 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-30:hover {
+    transform: scale(1.05);
+}
+
+.game-box-31 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-31 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-31:hover {
+    transform: scale(1.05);
+}
+
+.game-box-32 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-32 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-32:hover {
+    transform: scale(1.05);
+}
+
+.game-box-33 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-33 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-33:hover {
+    transform: scale(1.05);
+}
+
+.game-box-34 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-34 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-34:hover {
+    transform: scale(1.05);
+}
+
+.game-box-35 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-35 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-35:hover {
+    transform: scale(1.05);
+}
+
+.game-box-36 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-36 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-36:hover {
+    transform: scale(1.05);
+}
+
+.game-box-37 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-37 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-37:hover {
+    transform: scale(1.05);
+}
+
+.game-box-38 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-38 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-38:hover {
+    transform: scale(1.05);
+}
+
+.game-box-39 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-39 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-39:hover {
+    transform: scale(1.05);
+}
+
+.game-box-40 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-40 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-40:hover {
+    transform: scale(1.05);
+}
+
+.game-box-41 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-41 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-41:hover {
+    transform: scale(1.05);
+}
+
+.game-box-42 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-42 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-42:hover {
+    transform: scale(1.05);
+}
+
+.game-box-43 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-43 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-43:hover {
+    transform: scale(1.05);
+}
+
+.game-box-44 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-44 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-44:hover {
+    transform: scale(1.05);
+}
+
+.game-box-45 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-45 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-45:hover {
+    transform: scale(1.05);
+}
+
+.game-box-46 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-46 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-46:hover {
+    transform: scale(1.05);
+}
+
+.game-box-47 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-47 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-47:hover {
+    transform: scale(1.05);
+}
+
+.game-box-48 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-48 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-48:hover {
+    transform: scale(1.05);
+}
+
+.game-box-49 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-49 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-49:hover {
+    transform: scale(1.05);
+}
+
+.game-box-50 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-50 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-50:hover {
+    transform: scale(1.05);
+}
+
+.game-box-51 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-51 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-51:hover {
+    transform: scale(1.05);
+}
+
+.game-box-52 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-52 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-52:hover {
+    transform: scale(1.05);
+}
+
+.game-box-53 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-53 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-53:hover {
+    transform: scale(1.05);
+}
+
+.game-box-54 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-54 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-54:hover {
+    transform: scale(1.05);
+}
+
+.game-box-55 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-55 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-55:hover {
+    transform: scale(1.05);
+}
+
+.game-box-56 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-56 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-56:hover {
+    transform: scale(1.05);
+}
+
+.game-box-57 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-57 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-57:hover {
+    transform: scale(1.05);
+}
+
+.game-box-58 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-58 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-58:hover {
+    transform: scale(1.05);
+}
+
+.game-box-59 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-59 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-59:hover {
+    transform: scale(1.05);
+}
+
+.game-box-60 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-60 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-60:hover {
+    transform: scale(1.05);
+}
+
+.game-box-61 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-61 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-61:hover {
+    transform: scale(1.05);
+}
+
+.game-box-62 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-62 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-62:hover {
+    transform: scale(1.05);
+}
+
+.game-box-63 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-63 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-63:hover {
+    transform: scale(1.05);
+}
+
+.game-box-64 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-64 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-64:hover {
+    transform: scale(1.05);
+}
+
+.game-box-65 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-65 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-66:hover {
+    transform: scale(1.05);
+}
+
+.game-box-66 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-66 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-66:hover {
+    transform: scale(1.05);
+}
+
+.game-box-67 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-67 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-67:hover {
+    transform: scale(1.05);
+}
+
+.game-box-68 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-68 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-68:hover {
+    transform: scale(1.05);
+}
+
+.game-box-69 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-69 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-69:hover {
+    transform: scale(1.05);
+}
+
+.game-box-70 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-70 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-70:hover {
+    transform: scale(1.05);
+}
+
+.game-box-71 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-71 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-71:hover {
+    transform: scale(1.05);
+}
+
+.game-box-72 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-72 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-72:hover {
+    transform: scale(1.05);
+}
+
+.game-box-73 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-73 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-73:hover {
+    transform: scale(1.05);
+}
+
+.game-box-74 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-74 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-74:hover {
+    transform: scale(1.05);
+}
+
+.game-box-75 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-75 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-75:hover {
+    transform: scale(1.05);
+}
+
+.game-box-76 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-76 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-76:hover {
+    transform: scale(1.05);
+}
+
+.game-box-77 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-77 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-77:hover {
+    transform: scale(1.05);
+}
+
+.game-box-78 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-78 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-78:hover {
+    transform: scale(1.05);
+}
+
+.game-box-79 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-79 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-79:hover {
+    transform: scale(1.05);
+}
+
+.game-box-80 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-80 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-80:hover {
+    transform: scale(1.05);
+}
+
+.game-box-81 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-81 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-81:hover {
+    transform: scale(1.05);
+}
+
+.game-box-82 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-82 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-82:hover {
+    transform: scale(1.05);
+}
+
+.game-box-83 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-83 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-83:hover {
+    transform: scale(1.05);
+}
+
+
+.game-box-84 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-84 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-84:hover {
+    transform: scale(1.05);
+}
+
+.game-box-85 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-85 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-85:hover {
+    transform: scale(1.05);
+}
+
+.game-box-86 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-86 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-86:hover {
+    transform: scale(1.05);
+}
+
+.game-box-87 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-87 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-87:hover {
+    transform: scale(1.05);
+}
+
+.game-box-88 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-88 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-88:hover {
+    transform: scale(1.05);
+}
+
+.game-box-89 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-89 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-89:hover {
+    transform: scale(1.05);
+}
+
+.game-box-90 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-90 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-90:hover {
+    transform: scale(1.05);
+}
+
+.game-box-91 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-91 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-91:hover {
+    transform: scale(1.05);
+}
+
+.game-box-92 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-92 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-92:hover {
+    transform: scale(1.05);
+}
+
+.game-box-93 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-93 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-93:hover {
+    transform: scale(1.05);
+}
+
+.game-box-94 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-94 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-94:hover {
+    transform: scale(1.05);
+}
+
+.game-box-95 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-95 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-95:hover {
+    transform: scale(1.05);
+}
+
+.game-box-96 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-96 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-96:hover {
+    transform: scale(1.05);
+}
+
+.game-box-97 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-97 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-97:hover {
+    transform: scale(1.05);
+}
+
+.game-box-98 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-98 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-98:hover {
+    transform: scale(1.05);
+}
+
+.game-box-99 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-99 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-99:hover {
+    transform: scale(1.05);
+}
+
+.game-box-100 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-100 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-100:hover {
+    transform: scale(1.05);
+}
+
+.game-box-101 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-101 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-101:hover {
+    transform: scale(1.05);
+}
+
+.game-box-102 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-102 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-102:hover {
+    transform: scale(1.05);
+}
+
+.game-box-103 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-103 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-103:hover {
+    transform: scale(1.05);
+}
+
+.game-box-104 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-104 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-104:hover {
+    transform: scale(1.05);
+}
+
+.game-box-105 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-105 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+
+}
+
+.game-box-105:hover {
+    transform: scale(1.05);
+}
+
+.game-box-106 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-106 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-106:hover {
+    transform: scale(1.05);
+}
+
+.game-box-107 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-107 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-107:hover {
+    transform: scale(1.05);
+}
+
+.game-box-108 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-108 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box1-108:hover {
+    transform: scale(1.05);
+}
+
+.game-box-109 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-109 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-109:hover {
+    transform: scale(1.05);
+}
+
+.game-box-110 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-110 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-110:hover {
+    transform: scale(1.05);
+}
+
+.game-box-111 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-111 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+
+.game-box-111:hover {
+    transform: scale(1.05);
+}
+
+
+.game-box-112 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-112 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-112:hover {
+    transform: scale(1.05);
+}
+
+.game-box-113 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-113 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-113:hover {
+    transform: scale(1.05);
+}
+
+
+
+.game-box-1111 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scroll-behavior: smooth;
+
+}
+
+.game-box-1111 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgb(8, 0, 255);
+    transition: transform 0.3s;
+    cursor: pointer;
+
+
+}
+
+.game-box-1111:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+#sidenav {
+    width: 250px;
+    height: 500px;
+    position: fixed;
+    right: -250px;
+    z-index: 2;
+    background-color: #000000;
+    overflow-y: auto;
+}
+
+.ee {
+    background-color: #030193;
+
+}
+
+
+nav ul li {
+    list-style: none;
+    margin: 10px 50px;
+    font-size: 25px;
+
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(246, 246, 246);
+
+
+
+}
+
+
+
+#menuphoto {
+    width: 50px;
+    position: fixed;
+    top: 20px;
+    right: 65px;
+    z-index: 2;
+    cursor: pointer;
+    background-color: rgb(7, 63, 245);
+
+}
+
+
+.social-icons {
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+
+}
+
+.social-icons img {
+    display: block;
+    width: 20px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+    transition: 2s;
+    background-color: rgb(255, 255, 255);
+}
+
+.social-icons img:hover {
+    transform: rotate(360deg);
+
+
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    padding: 10px;
+}
